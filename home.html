@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="home.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anushka Sinha</title>
+
+  <script>
+    const navType = performance.getEntriesByType("navigation")[0].type;
+    if (navType === "reload") {
+      window.location.href = "anushka-sinha.html";
+    }
+  </script>
+
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- TagCanvas Script -->
+  <script src="https://www.goat1000.com/tagcanvas.min.js"></script>
+</head>
+
+<body>
+  <div class="stars" id="stars-container"></div>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#home">Gallery</a>
+    <span>|</span>
+    <a class="social-icons" href="https://www.instagram.com/anu.shka_30?igsh=eGdlemJtdmhveDdv" target="_blank"><i class="bi bi-instagram"></i></a>
+    <a class="social-icons" href="https://www.linkedin.com/in/anushka-sinha-7b8808267/" target="_blank"><i class="bi bi-linkedin"></i></a>
+    <a class="social-icons" href="https://github.com/Anu-Si30" target="_blank"><i class="bi bi-github"></i></a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h1>About Me</h1>
+    <div class="about">
+      <div class="about-photo-wrapper">
+        <div class="photo-bg-rectangle"></div>
+        <img src="assets/Untitled.jpeg" alt="Your photo">
+        <a href="assets/your-cv.pdf" target="_blank" class="cv-box">
+          📄 View My CV
+        </a>
+      </div>
+      <div class="about-text">
+        <p>Hey hey! I'm Anushka, a first year B.Tech in CSE student currently at IIIT Hyderabad! I've been travelling all my life and have lived in several places but my heart is always at home in Mumbai. You'll find me trying to explore new things but I'm happiest when I'm reading, painting or singing. With recently developing interests, I am trying out web designing, and I hope this website helps you get to know me better!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h1>Education</h1>
+    <div class="timeline-horizontal">
+      <div class="timeline-line"></div>
+      <div class="timeline-scroll">
+        <div class="timeline-event up">
+          <div class="dot"></div>
+          <p>Ryan International School (Indore)<br><span>Pre-primary to 1st grade</span></p>
+          <img class="logo" src="assets/ryan.jpeg" alt="logo">
+        </div>
+        <div class="timeline-event down">
+          <div class="dot"></div>
+          <p>Wellington College Int'l Tianjin (China)<br><span>1st to 4th grade</span></p>
+          <img class="logo" src="assets/welli.jpeg" alt="logo">
+        </div>
+        <div class="timeline-event up">
+          <div class="dot"></div>
+          <p>Orchids Int'l School Malad (Mumbai)<br><span>5th to 9th grade</span></p>
+          <img class="logo" src="assets/orch.jpeg" alt="logo">
+        </div>
+        <div class="timeline-event down">
+          <div class="dot"></div>
+          <p>Haverstock School (London)<br><span>10th to 12th grade</span></p>
+          <img class="logo" src="assets/images.png" alt="logo">
+        </div>
+        <div class="timeline-event up">
+          <div class="dot"></div>
+          <p>IIIT Hyderabad<br><span>B.Tech</span></p>
+          <img class="logo" src="assets/iiit.jpeg" alt="logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h1>Skills</h1>
+    <div id="skills-wrapper">
+      <div class="skills-box">
+        <ul>
+          <li>C/C++</li>
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Node.js</li>
+        </ul>
+      </div>
+
+      <div id="myCanvasContainer">
+        <canvas width="600" height="600" id="myCanvas">
+          <p>Anything in here will be replaced on browsers that support the canvas element</p>
+        </canvas>
+      </div>
+
+      <div class="skills-box">
+        <ul>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>FastAPI</li>
+          <li>Jinja</li>
+          <li>Bash</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="tags">
+      <ul>
+        <li><a href="#"><img src="assets/image.png" width="70" height="70"/>C/C++</a></li>
+        <li><a href="#"><img src="assets/image copy 2.png" width="70" height="70"/> Python</a></li>
+        <li><a href="#"><img src="assets/image copy 3.png" width="70" height="70"/> JavaScript</a></li>
+        <li><a href="#"><img src="assets/image copy 4.png" width="70" height="70" /> HTML</a></li>
+        <li><a href="#"><img src="assets/image copy 5.png" width="70" height="70"/> CSS</a></li>
+        <li><a href="#"><img src="assets/image copy 6.png" width="70" height="70"/> Node.js</a></li>
+        <li><a href="#"><img src="assets/image copy 7.png" width="70" height="70" /> MongoDB</a></li>
+        <li><a href="#"><img src="assets/image copy 8.png" width="70" height="70"/> MySQL</a></li>
+        <li><a href="#"><img src="assets/image copy 9.png" width="70" height="70" /> FastAPI</a></li>
+        <li><a href="#"><img src="assets/image copy 10.png" width="70" height="70" /> Jinja</a></li>
+        <li><a href="#"><img src="assets/image copy 11.png" width="70" height="70"/> Bash</a></li>
+        <li><a href="#"><img src="assets/image copy.png" width="70" height="70"/> GitHub</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+<section id="achievements">
+  <h1>Achievements</h1>
+  <div class="about-text" id="achievements-container" style="margin: 0 auto; position: relative; width: 80%; max-width: 800px; min-height: 350px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+    <div id="trophy-container" style="cursor: pointer; animation: pulse 1s infinite; margin-bottom: 1.5rem;">
+      <i class="bi bi-trophy-fill" style="font-size: 3rem; color: rgb(250, 249, 255);"></i>
+    </div>
+    <ul id="achievements-list" style="display: none; font-size: 1.5rem; text-align: left; padding-left: 1.5rem;">
+      <li>SpellBee National Level and State Level Medal Winner, and School Topper.</li>
+      <li>Did an internship in the British Standards Institution over summer.</li>
+      <li>Secured rank 13 across Maharashtra and Goa in the International English Olympiad.</li>
+      <li>Secured a distinction in Trinity College London's music exam for keyboard.</li>
+      <li>Ranked in top 200 as a Silver Scholar in the Asset Talent Search.</li>
+      <li>Won first position in Inter-branch football competition (Orchids Premier League).</li>
+      <li>Hold a purple belt in Karate.</li>
+    </ul>
+    <div id="shooting-stars-container"></div>
+  </div>
+</section>
+
+  <!-- Home -->
+  <section id="home">
+    <h1>Gallery</h1>
+    <div class="gallery-grid">
+      <img src="assets/image copy 19.png" alt="Gallery Image 1">
+      <img src="assets/image copy 13.png" alt="Gallery Image 2">
+      <img src="assets/image copy 14.png" alt="Gallery Image 3">
+      <img src="assets/image copy 15.png" alt="Gallery Image 4">
+      <img src="assets/image copy 16.png" alt="Gallery Image 5">
+      <img src="assets/image copy 17.png" alt="Gallery Image 6">
+      <img src="assets/image copy 18.png" alt="Gallery Image 7">
+      <img src="assets/image copy 21.png" alt="Gallery Image 8">
+    </div>
+  </section>
+  
+
+  <script>
+    // Generate stars
+    const starsContainer = document.getElementById('stars-container');
+    for (let i = 0; i < 150; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+      star.style.top = Math.random() * 100 + 'vh';
+      star.style.left = Math.random() * 100 + 'vw';
+      star.style.animationDelay = Math.random() * 1.5 + 's';
+      starsContainer.appendChild(star);
+    }
+  
+    // TagCanvas
+    window.onload = function () {
+      try {
+        TagCanvas.Start('myCanvas', 'tags', {
+          textColour: '#fff',
+          outlineThickness: 0.5,
+          outlineColour: '#fff',
+          maxSpeed: 0.06,
+          initial: [0.1, -0.05],
+          freezeActive: true,
+          shuffleTags: true,
+          shape: 'sphere',
+          zoom: 1,
+          noSelect: true,
+          textFont: 'Patrick Hand, cursive',
+          textHeight: 30,
+          pinchZoom: true,
+          wheelZoom: false,
+          freezeDecel: true
+        });
+      } catch (e) {
+        console.log('TagCanvas error:', e);
+        document.getElementById('myCanvasContainer').style.display = 'none';
+      }
+    };
+  
+    // Trophy click handler
+    document.getElementById("trophy-container").addEventListener("click", () => {
+      const list = document.getElementById("achievements-list");
+      const trophy = document.getElementById("trophy-container");
+      list.style.display = "block";
+      trophy.style.display = "none";
+    });
+  </script>
+
+<script>
+  let starInterval;
+  let shootingStarsRunning = true;
+
+  function createShootingStar() {
+    const container = document.getElementById("shooting-stars-container");
+    const star = document.createElement("div");
+    star.classList.add("shooting-star");
+    star.style.top = Math.random() * container.offsetHeight + "px";
+    star.style.left = Math.random() * container.offsetWidth + "px";
+    container.appendChild(star);
+
+    setTimeout(() => star.remove(), 1000); // Clean up after animation
+  }
+
+  // Start generating stars every 300ms
+  starInterval = setInterval(() => {
+    if (shootingStarsRunning) {
+      createShootingStar();
+    }
+  }, 300);
+
+  // Stop animation when trophy icon is clicked
+  document.getElementById("trophy-icon").addEventListener("click", () => {
+    shootingStarsRunning = false;
+    clearInterval(starInterval);
+  });
+</script>
+
+<script>
+  function createShootingStar() {
+    const shootingStar = document.createElement('div');
+    shootingStar.classList.add('shooting-star');
+    
+    // Random position from the left
+    shootingStar.style.left = Math.random() * window.innerWidth + 'px';
+    shootingStar.style.top = Math.random() * 100 + 'px'; // appear near the top
+    
+    document.getElementById('shooting-stars-container').appendChild(shootingStar);
+
+    // Remove it after animation
+    setTimeout(() => {
+      shootingStar.remove();
+    }, 1000);
+  }
+
+  // Generate a shooting star every 3-6 seconds
+  setInterval(() => {
+    createShootingStar();
+  }, Math.random() * 3000 + 3000); // 3-6 sec
+</script>
+
+      
+</body>
+</html>
